@@ -30,4 +30,7 @@ author=input("Enter Author name: ")
 price=int(input("Enter price: "))
 pages=int(input("Enter pages: "))
 
-p=Python
+p=Python(pub,title,author,price,pages)
+
+print("\n====Python book Details====")
+p.display()
