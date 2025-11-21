@@ -23,8 +23,8 @@ r1 = Rectangle(l1, b1)
 r2 = Rectangle(l2, b2)
 
 
-print("\nRectangle 1 → Area:", r1.area(), ", Perimeter:", r1.perimeter())
-print("Rectangle 2 → Area:", r2.area(), ", Perimeter:", r2.perimeter())
+print("\nRectangle 1 : Area=", r1.area(), ", Perimeter=", r1.perimeter())
+print("Rectangle 2 : Area=", r2.area(), ", Perimeter=", r2.perimeter())
 
 
 if r1.area() > r2.area():
